@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Longhorn Grill and Drinks</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            /* Animaciones */
+            .fade-in {
+                opacity: 0;
+                transform: translateY(20px);
+                animation: fadeIn 2s forwards;
+            }
+
+            @keyframes fadeIn {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .slide-up {
+                opacity: 0;
+                transform: translateY(20px);
+                animation: slideUp 2s forwards;
+            }
+
+            @keyframes slideUp {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        </style>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fade-in">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">Longhorn Grill</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">Sobre Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pricing.html">Precios</a></li>
+                            <li class="nav-item"><a class="nav-link" href="faq.html">Preguntas Frecuentes</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                    <li><a class="dropdown-item" href="blog-home.html">Inicio del Blog</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Publicación del Blog</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portafolio</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Resumen del Portafolio</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Elemento del Portafolio</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Header-->
+            <header class="bg-dark py-5 slide-up">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-5 fw-bolder text-white mb-2">El mejor lugar para disfrutar de carnes a la parrilla</h1>
+                                <p class="lead fw-normal text-white-50 mb-4">Disfruta de una experiencia gastronómica única con nuestros cortes de carne de alta calidad y deliciosos cócteles.</p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">¡Reserva Ahora!</a>
+                                    <a class="btn btn-outline-light btn-lg px-4" href="#!">Saber Más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://i.pinimg.com/originals/33/15/97/33159751ee8691a5b6784c0a485704a7.gif" alt="Carnes a la parrilla" /></div>
+                    </div>
+                </div>
+            </header>
+            <!-- Features section-->
+            <section class="py-5" id="features">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5 mb-lg-0 fade-in"><h2 class="fw-bolder mb-0">Una mejor forma de disfrutar.</h2></div>
+                        <div class="col-lg-8">
+                            <div class="row gx-5 row-cols-1 row-cols-md-2">
+                                <div class="col mb-5 h-100 fade-in">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+                                    <h2 class="h5">Carnes a la parrilla</h2>
+                                    <p class="mb-0">Ofrecemos una variedad de cortes de carne seleccionados y preparados a la perfección.</p>
+                                </div>
+                                <div class="col mb-5 h-100 fade-in">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+                                    <h2 class="h5">Ambiente acogedor</h2>
+                                    <p class="mb-0">Disfruta de una experiencia única en un ambiente cálido y acogedor, ideal para compartir con amigos y familiares.</p>
+                                </div>
+                                <div class="col mb-5 mb-md-0 h-100 fade-in">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                                    <h2 class="h5">Cócteles Exclusivos</h2>
+                                    <p class="mb-0">Prueba nuestros cócteles únicos, creados por nuestros talentosos bartenders.</p>
+                                </div>
+                                <div class="col h-100 fade-in">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                                    <h2 class="h5">Servicio excepcional</h2>
+                                    <p class="mb-0">Nuestro equipo está dedicado a brindarte la mejor experiencia posible durante tu visita.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonial section-->
+            <div class="py-5 bg-light">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10 col-xl-7">
+                            <div class="text-center">
+                                <div class="fs-4 mb-4 fst-italic">"Disfrutar de una cena en Longhorn Grill fue una experiencia inolvidable. La carne estaba deliciosa y el servicio fue excepcional!"</div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="Cliente" />
+                                    <div class="fw-bold">
+                                        Juan Pérez
+                                        <span class="fw-bold text-primary mx-1">/</span>
+                                        Cliente Satisfecho
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog preview section-->
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-8 col-xl-6">
+                            <div class="text-center">
+                                <h2 class="fw-bolder">Desde nuestro blog</h2>
+                                <p class
+                                <p class="lead fw-normal text-muted mb-5">Mantente al tanto de nuestras últimas noticias y eventos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="https://dummyimage.com/300x200/ced4da/6c757d" alt="Publicación 1" />
+                                <div class="card-body">
+                                    <div class="small text-muted">Enero 1, 2024</div>
+                                    <h5 class="card-title">Nuestras carnes especiales del mes</h5>
+                                    <p class="card-text">Descubre nuestras ofertas de carnes frescas y exclusivas, solo por tiempo limitado.</p>
+                                </div>
+                                <div class="card-footer"><a class="btn btn-primary" href="#!">Leer Más</a></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="https://dummyimage.com/300x200/ced4da/6c757d" alt="Publicación 2" />
+                                <div class="card-body">
+                                    <div class="small text-muted">Enero 15, 2024</div>
+                                    <h5 class="card-title">Cócteles de temporada</h5>
+                                    <p class="card-text">Prueba nuestros nuevos cócteles de temporada, perfectos para complementar tu comida.</p>
+                                </div>
+                                <div class="card-footer"><a class="btn btn-primary" href="#!">Leer Más</a></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="https://dummyimage.com/300x200/ced4da/6c757d" alt="Publicación 3" />
+                                <div class="card-body">
+                                    <div class="small text-muted">Febrero 1, 2024</div>
+                                    <h5 class="card-title">Eventos especiales en Longhorn</h5>
+                                    <p class="card-text">Descubre los eventos especiales que hemos planeado para este mes.</p>
+                                </div>
+                                <div class="card-footer"><a class="btn btn-primary" href="#!">Leer Más</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="py-4 bg-dark">
+            <div class="container px-5"><p class="m-0 text-center text-white">© 2024 Longhorn Grill and Drinks. Todos los derechos reservados.</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
